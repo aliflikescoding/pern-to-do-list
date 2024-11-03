@@ -1,0 +1,6 @@
+CREATE DATABASE perntodo;
+
+CREATE TABLE todo (
+   todo_id INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+   todo_desc VARCHAR ( 255 ) 
+);
