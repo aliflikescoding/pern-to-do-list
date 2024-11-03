@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node --watch -omit=dev server"
+    "dev": "node --watch --env-file=.env server"
   },
   "keywords": [],
   "author": "",
